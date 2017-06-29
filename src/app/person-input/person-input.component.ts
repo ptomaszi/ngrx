@@ -3,7 +3,6 @@ import { Component, ChangeDetectionStrategy, OnInit, Output, EventEmitter } from
 @Component({
   selector: 'app-person-input',
   templateUrl: './person-input.component.html',
-  styleUrls: ['./person-input.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PersonInputComponent implements OnInit {

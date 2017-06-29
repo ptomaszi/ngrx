@@ -9,7 +9,6 @@ import {
 @Component({
   selector: 'app-filter-select',
   templateUrl: './filter-select.component.html',
-  styleUrls: ['./filter-select.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FilterSelectComponent {
